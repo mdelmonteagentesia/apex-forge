@@ -1,10 +1,10 @@
 import ScrollReveal from "./ScrollReveal";
 import { motion } from "framer-motion";
 import { Dumbbell, Flame, Trophy, Zap, Wind, PersonStanding, ArrowUpRight } from "lucide-react";
-import { ComponentType } from "react";
+import { LucideIcon } from "lucide-react";
 
 interface Activity {
-  icon: ComponentType<{ size?: number; className?: string }>;
+  icon: LucideIcon;
   name: string;
   desc: string;
 }
