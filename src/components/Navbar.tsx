@@ -33,8 +33,8 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 h-16 md:h-20">
-        <a href="#" className="font-display text-2xl md:text-3xl text-foreground tracking-wider">
-          VAM<span className="text-primary">.</span>
+        <a href="#" className="flex items-center">
+          <img src={logoHeader} alt="VAM Box" className="h-10 md:h-14 w-auto" />
         </a>
 
         {/* Desktop */}
