@@ -34,7 +34,7 @@ const HeroSection = () => {
           className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-foreground leading-[0.9] mb-6 md:mb-8"
         >
           NO VENGAS A<br />
-          <span className="text-gradient">ENTRENAR</span>
+          <span className="text-gradient drop-shadow-[0_0_40px_hsl(var(--primary)/0.8)] [text-shadow:0_0_60px_hsl(var(--primary)/0.6),0_0_120px_hsl(var(--accent-energy)/0.4)]">ENTRENAR</span>
           <br />
           VEN A SUPERARTE
         </motion.h1>
