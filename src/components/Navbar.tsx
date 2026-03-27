@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import logoHeader from "@/assets/logo-header.png";
 
 const navLinks = [
   { label: "Cross Training", href: "#cross-training" },
